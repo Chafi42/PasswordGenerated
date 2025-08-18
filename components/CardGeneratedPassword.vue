@@ -135,7 +135,7 @@ button span {
   height: 100%;
   background: transparent;
   z-index: -1;
-  border: 4px solid royalblue;
+  border: 4px solid #020C69;
 }
 
 button span::before {
@@ -152,9 +152,17 @@ button span::before {
 }
 
 button:hover span::before {
-  transform: translate(-50%, -50%) rotate(-90deg);
-  width: 100%;
+  content: '';
+  display: flex;
+  position: absolute;
+  width: 8%;
+  height: 500%;
   background: #222222;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-60deg);
+  transition: all 0.3s;
+
 }
 
 button:hover {
