@@ -68,7 +68,7 @@
       </div>
     </div>
   </header>
-  <div class="border-b-1 w-full border-[#020C69]"></div>
+  <div class="border-b-1 mt-4 w-full border-[#020C69]"></div>
 </template>
 
 <script>

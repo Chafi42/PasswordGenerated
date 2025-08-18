@@ -135,7 +135,7 @@ button span {
   height: 100%;
   background: transparent;
   z-index: -1;
-  border: 4px solid #020C69;
+  border: 3px solid #020C69;
 }
 
 button span::before {
