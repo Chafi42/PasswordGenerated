@@ -1,8 +1,8 @@
 <template>
   <header
-    class="z-30 mx-auto w-full max-w-screen-md bg-transparent lg:max-w-screen-lg bg-gray-300 relative inset-0"
+    class="z-30 mx-auto w-full max-w-screen-md lg:max-w-screen-lg  relative inset-0"
   >
-    <div class="px-4 bg-gray-300 sm:px-6 lg:px-8">
+    <div class="px-4  sm:px-6 lg:px-8">
       <div class="flex items-center justify-around">
         <div class="flex shrink-0">
   <NuxtLink to="/" class="flex items-center">
