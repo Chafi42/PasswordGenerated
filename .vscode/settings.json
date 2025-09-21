@@ -8,7 +8,7 @@
     "strings": true
   },
   "editor.suggestOnTriggerCharacters": true,
-  "editor.wordBasedSuggestions": true,
+  "editor.wordBasedSuggestions": "matchingDocuments",
   "editor.parameterHints.enabled": true,
   "editor.suggest.showKeywords": true,
   "editor.suggest.showSnippets": true,

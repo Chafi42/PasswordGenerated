@@ -1,20 +1,20 @@
 <template>
   <header
-    class="z-30 mx-auto w-full max-w-screen-md bg-transparent py-3 lg:max-w-screen-lg relative inset-0"
+    class="z-30 mx-auto w-full max-w-screen-md bg-transparent lg:max-w-screen-lg bg-gray-300 relative inset-0"
   >
-    <div class="px-4">
-      <div class="flex items-center justify-between">
+    <div class="px-4 bg-gray-300 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-around">
         <div class="flex shrink-0">
-          <NuxtLink to="/" class="flex items-center" href="/">
-            <img
-              to="/"
-              class="h-7 w-auto"
-              src="../assets/images/chafi.png"
-              alt=""
-            />
-            <p class="sr-only">Website Title</p>
-          </NuxtLink>
-        </div>
+  <NuxtLink to="/" class="flex items-center">
+    <img
+      src="../assets/images/chafi.png"
+      alt="Logo"
+      class="w-45 transition-transform duration-300 hover:scale-110"
+    />
+    <p class="sr-only">Website Title</p>
+  </NuxtLink>
+</div>
+
         <div class="md:flex md:items-center md:justify-center md:gap-5">
           <NuxtLink
             to="/"
@@ -64,7 +64,6 @@
             />
           </NuxtLink>
         </div>
-      
       </div>
     </div>
   </header>

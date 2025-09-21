@@ -4,7 +4,7 @@ import Card from "~/components/CardGeneratedPassword.vue";
 
 <template>
   <main>
-  <div class="min-h-screen flex flex-col">
+  <div class="min-h-screen bg-gray-300 flex flex-col">
     <div class="flex-grow">
       <Card />
     </div>
